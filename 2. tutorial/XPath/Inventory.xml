@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<inventory> 
+    <product> 
+        <name>Product A</name> 
+        <price>49</price> 
+        <quantity>100</quantity> 
+    </product> 
+    <product> 
+        <name>Product B</name> 
+        <price>35</price> 
+        <quantity>50</quantity> 
+    </product> 
+    <product> 
+        <name>Product C</name> 
+        <price>145</price> 
+        <quantity>75</quantity> 
+    </product> 
+    <product> 
+        <name>Product D</name> 
+        <price>99</price> 
+        <quantity>200</quantity> 
+    </product> 
+</inventory> 

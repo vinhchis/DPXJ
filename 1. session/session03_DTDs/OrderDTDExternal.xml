@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Order SYSTEM 'DTDExternal.dtd'>
+<Order OrderNo="0083/98">
+    <Customer>TLT</Customer>
+    <Date>03/12/1998</Date>
+    <OrderDetails No="1">
+        <Item>RKSK-T</Item>
+        <Quantity>100</Quantity>
+        <UnitPrice>500</UnitPrice>
+        <Amount>50,000</Amount>
+    </OrderDetails>
+    <OrderDetails No="2">
+        <Item>STCS-18-S-T</Item>
+        <Quantity>50</Quantity>
+        <UnitPrice>1,575</UnitPrice>
+        <Amount>78,750</Amount>
+    </OrderDetails>
+    <OrderDetails No="3">
+        <Item>STCS-24-S-DB</Item>
+        <Quantity>100</Quantity>
+        <UnitPrice>1,575</UnitPrice>
+        <Amount>157,500</Amount>
+    </OrderDetails>
+    <Total>286,250 &USD;</Total>
+</Order>
+<!--External DTD-->
+

@@ -1,0 +1,19 @@
+------------- XPATH ----------------------------------
+Task 1: Write XPath expressions to accomplish following tasks: 
+1. Select the author of the book titled ‘1984’.
+/bookstore/book[titled = 1984]
+    
+2. Select the genre of the book with the author ‘Lewis Carroll’. 
+/bookstore/book[author = "Lewis Carroll"]
+Provide the XPath expression and the expected output/result for each task. 
+--------------------------------------------------
+Task: 2
+Write XPath expressions using operators to accomplish following tasks using 
+inventory.xml of Code Snippet 3 (Inventory.xml): 
+1. Select all products with a price of less than 50. 
+/inventory/product[price < 50]
+=> Product A 49 100 , Product B 35 50
+2. Select the names of products with a quantity greater than 0.
+/inventory/product[quantity > 0]/name
+=> Product A,Product B,Product C,Product D
+ 

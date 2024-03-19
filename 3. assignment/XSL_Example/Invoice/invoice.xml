@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="invoice.xsl"?> 
+
+<invoice xmlns:ass="https://aptech.fpt.edu.vn/as">
+    <ass:order orderNo="261200001/23"></ass:order>
+    <ass:date>December 30th, 2023</ass:date>
+    <ass:customer>
+        <ass:name>ABC Coorp Ltd</ass:name>
+    </ass:customer>
+    <ass:items>
+        <ass:item>
+            <ass:code>GR-RS600WI-PMV</ass:code>
+            <ass:name>Tóhiba Inverter 519L</ass:name>
+            <ass:quality>2</ass:quality>
+            <ass:price>500</ass:price>
+        </ass:item>
+        <ass:item>
+            <ass:code>GR-B256JDS</ass:code>
+            <ass:name>LG Interter 519L</ass:name>
+            <ass:quality>10</ass:quality>
+            <ass:price>490</ass:price>
+        </ass:item>
+        <ass:item>
+            <ass:code>PU9ZKH-8M</ass:code>
+            <ass:name>Panasonic Interter 1HP</ass:name>
+            <ass:quality>9</ass:quality>
+            <ass:price>510</ass:price>
+        </ass:item>
+        <ass:item>
+            <ass:code>UA65AU8100</ass:code>
+            <ass:name>Samsung 4K Crytal UHD 65 inch</ass:name>
+            <ass:quality>3</ass:quality>
+            <ass:price>515</ass:price>
+        </ass:item>
+        <ass:item>
+            <ass:code>75NANO76SQA</ass:code>
+            <ass:name>LQ NanoCell 4K 75 inch</ass:name>
+            <ass:quality>5</ass:quality>
+            <ass:price>1100</ass:price>
+        </ass:item>
+    </ass:items>
+</invoice>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore> 
+ <book id="123"> 
+  <title>The Hitchhiker's Guide to the Galaxy</title> 
+  <author>Douglas Adams</author> 
+  <price>20000</price> 
+ </book> 
+ <book id="456"> 
+  <title>The Lord of the Rings</title> 
+  <author>J.R.R. Tolkien</author> 
+  <price>102000</price> 
+ </book> 
+</bookstore>

@@ -1,0 +1,71 @@
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-
+              scale=1.0"> 
+        <title>XPath Examples</title> 
+    </head> 
+    <body> 
+        <h2>XPath Examples</h2> 
+        <div>Add your query here</div> 
+        <div>
+            <textarea id="xPath"></textarea>
+            </div> 
+        <div>
+            <button onclick="example1()">Execute XPath Expressions</button>
+        </div> 
+        <div id="xpath-result">
+
+        </div> 
+
+        <script>
+            function executeXPath(xpathExpression) {
+
+                fetch('Bookstore.xml')
+                        .then(response => {
+                            return response.text();
+                        })
+                        .then(xmlText => {
+                            // Parse the XML data 
+                            const parser = new DOMParser();
+                            const xmlDoc = parser.parseFromString(xmlText,
+                                    'text/xml');
+
+                            // Rest of your code 
+
+                            const result = document.evaluate(
+                                    xpathExpression,
+                                    xmlDoc,
+                                    null,
+                                    XPathResult.ANY_TYPE,
+                                    null
+                                    );
+
+                            let output = [];
+                            let node = result.iterateNext();
+                            while (node) {
+                                output.push(node.textContent);
+                                node = result.iterateNext();
+                            }
+
+                            const resultElement =
+                                    document.getElementById("xpath-result");
+                            resultElement.innerHTML =
+                                    `<p>${output.join(",")}</p>`;
+
+                        })
+
+                        .catch(error => {
+                            console.error('Error fetching XML file:', error);
+                        });
+
+
+            }
+
+            function example1() {
+                var xpathexp = document.getElementById("xPath").value;
+                executeXPath(xpathexp);
+            }
+        </script> 
+    </body> 
+</html> 

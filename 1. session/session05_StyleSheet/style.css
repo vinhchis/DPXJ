@@ -1,0 +1,31 @@
+scholarship {
+    display: block;
+    justify-content:space-between;
+    border: thick solid #cbd;
+    margin: 30px;
+    padding: 10px;
+}
+
+scholarship:before {
+    display: block;
+    font-size: 2em;
+    content: "Schoolarship List";
+    color: bisque;
+    text-align: center;
+}
+
+student {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;  
+    border: 2px solid red;
+    margin: 10px;
+}
+
+class:before {
+    content: "T5.";
+}
+
+class:after {
+    content: ".E1"
+}

@@ -1,0 +1,13 @@
+{ 
+    "name": "John Doe", 
+    "age": 30, 
+    "gender": "male", 
+    "isStudent": false, 
+    "courses": ["math", "history", "chemistry"], 
+    "address": { 
+        "street": "123 Main St", 
+        "city": "Anytown", 
+        "state": "CA", 
+        "zip": "12345" 
+    } 
+} 

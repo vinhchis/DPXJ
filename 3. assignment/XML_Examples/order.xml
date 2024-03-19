@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<cg:invoice
+    xmlns:cg="http://www.shipping.com/Chicago"
+>
+    <cg:order orderNO="">
+        <cg:customer_name>John Doe</cg:customer_name>
+        <cg:address>123 Main Street, Cityville</cg:address>
+        <cg:id>ORD-2023001</cg:id>
+        <cg:total>150.00</cg:total>
+    </cg:order>
+    <cg:cod>
+        <cg:address>123 Main Street, Cityville</cg:address>
+        <cg:method>air</cg:method>
+        <cg:total>150.00</cg:total>
+    </cg:cod>
+    <cg:account state="active">
+        <cg:customer_id>CUST-001</cg:customer_id>
+        <cg:period>30 days</cg:period>
+    </cg:account>
+    <cg:shipping_info>
+        <cg:ship_date>2023-12-27</cg:ship_date>
+        <cg:billing_address>123 Main Street, Cityville</cg:billing_address>
+    </cg:shipping_info>
+    <cg:desc>This is a sample order for demonstration purposes.</cg:desc>
+</cg:invoice>
+
+ 

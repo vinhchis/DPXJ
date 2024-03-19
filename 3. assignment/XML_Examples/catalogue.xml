@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Assume that data for a book catalogue is available. An XML document for the 
+book catalogue with the following elements: name, author, pages, price, and table 
+of contents are to be created. The price element should also specify whether the 
+book is accompanied with a CD or DVD or both.  
+
+Create an XML document for the above mentioned catalogue displaying data for 
+about 10 books. 
+-->
+<!--<!DOCTYPE
+catalogue [ 
+  <!ELEMENT address (name, author, pages, price, toc?)> 
+  <!ELEMENT name (#PCDATA)> 
+  <!ELEMENT author (#PCDATA)> 
+  <!ELEMENT pages (#PCDATA)> 
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT toc (#PCDATA)>
+]> -->
+
+<catalogue>
+    <!-- Book 1 -->
+    <book>
+        <name>The Great Gatsby</name>
+        <author>F. Scott Fitzgerald</author>
+        <pages>180</pages>
+        <price>
+            <cd select="true">$15.99</cd>
+            <dvd select="false"></dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Introduction</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 1: The Buchanans</content>
+                <page>5</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 2 -->
+    <book>
+        <name>To Kill a Mockingbird</name>
+        <author>Harper Lee</author>
+        <pages>281</pages>
+        <price>
+            <cd select="true">$12.95</cd>
+            <dvd select="false"></dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Foreword</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 1: Maycomb, Alabama</content>
+                <page>5</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 3 -->
+    <book>
+        <name>1984</name>
+        <author>George Orwell</author>
+        <pages>328</pages>
+        <price>
+            <cd select="false"></cd>
+            <dvd select="true">$18.99</dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Part 1: The One</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Part 2: The Two</content>
+                <page>50</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 4 -->
+    <book>
+        <name>The Catcher in the Rye</name>
+        <author>J.D. Salinger</author>
+        <pages>224</pages>
+        <price>
+            <cd select="true">$14.50</cd>
+            <dvd select="false"></dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Chapter 1: The Pencey Prep</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 2: The Train to New York</content>
+                <page>10</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 5 -->
+    <book>
+        <name>Harry Potter and the Sorcerer's Stone</name>
+        <author>J.K. Rowling</author>
+        <pages>320</pages>
+        <price>
+            <cd select="false"></cd>
+            <dvd select="true">$19.99</dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Chapter 1: The Boy Who Lived</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 2: The Vanishing Glass</content>
+                <page>15</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 6 -->
+    <book>
+        <name>The Hobbit</name>
+        <author>J.R.R. Tolkien</author>
+        <pages>310</pages>
+        <price>
+            <cd select="true">$22.50</cd>
+            <dvd select="false"></dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>An Unexpected Party</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Riddles in the Dark</content>
+                <page>50</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 7 -->
+    <book>
+        <name>Brave New World</name>
+        <author>Aldous Huxley</author>
+        <pages>288</pages>
+        <price>
+            <cd select="false">$16.95</cd>
+            <dvd select="false"></dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Chapter 1: Hatchery and Conditioning Centre</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 2: Central London Hatchery and Conditioning Centre</content>
+                <page>20</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 8 -->
+    <book>
+        <name>Lord of the Flies</name>
+        <author>William Golding</author>
+        <pages>224</pages>
+        <price>
+            <cd select="false"></cd>
+            <dvd select="false">$14.99</dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Chapter 1: The Sound of the Shell</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 2: Fire on the Mountain</content>
+                <page>15</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 9 -->
+    <book>
+        <name>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</name>
+        <author>C.S. Lewis</author>
+        <pages>208</pages>
+        <price>
+            <cd select="true">$17.75</cd>
+            <dvd select="true">$20.75</dvd>
+            <both select="true">38.5</both>
+        </price>
+        <toc>
+            <item>
+                <content>Chapter 1: Lucy Looks into a Wardrobe</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 2: What Lucy Found There</content>
+                <page>15</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+
+    <!-- Book 10 -->
+    <book>
+        <name>The Da Vinci Code</name>
+        <author>Dan Brown</author>
+        <pages>454</pages>
+        <price>
+            <cd select="false"></cd>
+            <dvd select="true">$24.99</dvd>
+            <both select="false"></both>
+        </price>
+        <toc>
+            <item>
+                <content>Prologue: Louvre Museum, Paris</content>
+                <page>1</page>
+            </item>
+            <item>
+                <content>Chapter 1: Harvard Professor of Symbology</content>
+                <page>10</page>
+            </item>
+            <!-- More table of contents items... -->
+        </toc>
+    </book>
+</catalogue>

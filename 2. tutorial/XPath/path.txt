@@ -1,0 +1,6 @@
+1.
+/bookstore/book/title/text() 
+2. 
+/bookstore/book[year < 1960] 
+3. 
+/bookstore/book[title = 'To Kill a Mockingbird']/price/text() 

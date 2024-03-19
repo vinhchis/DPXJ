@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<scholarship>
+    <student>
+        <name>Lê Văn A</name>
+        <class>2206</class>
+        <subject>LBEP</subject>
+        <mark>100</mark>
+    </student>
+    <student>
+        <name>Lê Văn B</name>
+        <class>2206</class>
+        <subject>BMW</subject>
+        <mark>50</mark>
+    </student>
+    <student>
+        <name>Lê Văn C</name>
+        <class>1406</class>
+        <subject>DXE</subject>
+        <mark>75</mark>
+    </student>
+</scholarship>

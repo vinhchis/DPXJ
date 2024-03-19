@@ -1,0 +1,61 @@
+{
+    "genres": [
+        {
+            "code": "G1",
+            "name": "Action"
+        },
+        {
+            "code": "G2",
+            "name": "Comedy"
+        },
+        {
+            "code": "G3",
+            "name": "Drama"
+        },
+        {
+            "code": "G4",
+            "name": "Sci-Fi"
+        },
+        {
+            "code": "G5",
+            "name": "Thriller"
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "title": "The Matrix",
+            "poster": "./imgs/Aquaman.png",
+            "genre": "Action",
+            "duration": 180
+        },
+        {
+            "id": 2,
+            "title": "Dumb and Dumber",
+            "poster": "./imgs/TeeYod.png",
+            "genre": "Comedy",
+            "duration": 120
+        },
+        {
+            "id": 3,
+            "title": "The Shawshank Redemption",
+            "poster": "./imgs/TopGun.png",
+            "genre": "Drama",
+            "duration": 150
+        },
+        {
+            "id": 4,
+            "title": "Blade Runner",
+            "poster": "./imgs/Wonka.png",
+            "genre": "Sci-Fi",
+            "duration": 135
+        },
+        {
+            "id": 5,
+            "title": "The Silence of the Lambs",
+            "poster": "./imgs/Migration.png",
+            "genre": "Thriller",
+            "duration": 200
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JSON ReadFile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+
+
+            fetch("country.json")
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! Status: ${response.status}`);
+                        }
+
+                        return response.json();
+                    })
+                    .then((rs) => {
+                        let display = document.querySelector("#data-display");
+                        let data = "";
+                        let  i = 0;
+                        for (let cnt of rs) {
+                            data += `<tr>
+                                        <td>${i++}</td>
+                                        <td>${cnt.code}</td>
+                                        <td>${cnt.name}</td>
+                                        <td>${cnt.capital}</td>
+                                     </tr>`;
+                        }
+                        console.log(data);
+                        display.innerHTML = data;
+                    });
+        </script>
+    </head>
+    <body class="container">
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Country Code</th>
+                <th>Country Name</th>
+                <th>Capital</th>
+            </tr>
+            <tbody id="data-display">
+
+            </tbody>
+        </table>
+    </body>
+</html>

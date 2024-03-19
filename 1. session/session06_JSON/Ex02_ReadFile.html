@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>JSON ReadFile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+
+            fetch("country.json")
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! Status: ${response.status}`);
+                        }
+
+                        return response.json();
+                    })
+                    .then((rs) => {
+                        let display = document.querySelector("#data-display");
+                        let data = "";
+                        let  i= 0;
+                        for(let cnt of rs){
+                            data += `<div> ${i++} = ${cnt.type}</div>`;
+                        }
+                        
+                        display.innerHTML = data;
+                    });
+        </script>
+    </head>
+    <body class="container">
+        <div id="data-display">
+        </div>
+    </body>
+</html>

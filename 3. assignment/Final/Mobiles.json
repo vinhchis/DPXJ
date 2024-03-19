@@ -1,0 +1,62 @@
+{
+    "brands": [
+        {
+            "code": "B-1",
+            "name": "SamSung"
+        },
+         {
+            "code": "B-2",
+            "name": "Iphone"
+        },
+         {
+            "code": "B-3",
+            "name": "Oppo"
+        },
+         {
+            "code": "B-4",
+            "name": "Nokia"
+        },
+         {
+            "code": "B-5",
+            "name": "Sony"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "image": "./img/brands/S23Ultra.png",
+            "model": "Galaxy S23 Ultra",
+            "price": 1100,
+            "brand": "SamSung"
+        },
+        {
+            "id": 2,
+            "image": "./img/brands/TabS9wifi.png",
+            "model": "Galaxy Tab S9",
+            "price": 780,
+            "brand": "SamSung"
+        },
+        {
+            "id": 3,
+            "image": "./img/brands/15ProMax.png",
+            "model": "15 Pro Max",
+            "price": 1500,
+            "brand": "Iphone"
+        },
+        {
+            "id": 4,
+            "image": "./img/brands/14ProMax.png",
+            "model": "14 Pro Max",
+            "price": 1100,
+            "brand": "Iphone"
+        },
+        {
+            "id": 5,
+            "image": "./img/brands/FindN3.png",
+            "model": "Find N3",
+            "price": 800,
+            "brand": "SamSung"
+        }
+    ]
+    
+}

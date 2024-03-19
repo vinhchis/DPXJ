@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Order (Customer, Date, OrderDetails+, Total)>
+        <!ELEMENT Customer (#PCDATA)>
+        <!ELEMENT Date (#PCDATA)>
+        <!ELEMENT OrderDetails (Item, Quantity, UnitPrice, Amount)>
+            <!ELEMENT Item (#PCDATA)>
+            <!ELEMENT Quantity (#PCDATA)>
+            <!ELEMENT UnitPrice (#PCDATA)>
+            <!ELEMENT Amount (#PCDATA)>
+        <!ELEMENT Total (#PCDATA)>
+    <!ATTLIST Order OrderNo CDATA #REQUIRED>
+    <!ATTLIST OrderDetails No ID #REQUIRED>
+    <!ENTITY USD SYSTEM "US Dollar">

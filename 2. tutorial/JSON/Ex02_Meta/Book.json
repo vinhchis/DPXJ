@@ -1,0 +1,11 @@
+{ 
+  "title": "The Great Gatsby", 
+  "author": "F. Scott Fitzgerald", 
+  "year": 1925, 
+  "metadata": { 
+    "isbn": "9780743273565", 
+    "genre": "Fiction", 
+    "publisher": "Scribner", 
+    "language": "English" 
+  } 
+} 

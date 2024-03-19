@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Json</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var s = '{"name": "Alex", "age": 20, "city" : "HCM"}';
+            var text = JSON.parse(s);
+
+            document.write('Case 01' + text.name);
+            document.write("<br/>Case 02 " + text["name"]);
+
+            var str = '{"person" : [{"name" : "John","marks": "10"},{"name" : "Anna","marks": "9"}]}';
+            var arr = JSON.parse(str);
+
+            document.write("<br>" + arr.person[1].name);
+            
+            var cars ='{"car": ["Ford", "BMW", "Flat"]}';
+            var carArr = JSON.parse(cars);
+            
+            carArr.car.forEach((b) => document.write("<br>"  + b));
+
+        </script>
+    </head>
+   
+    <body>
+        <div></div>
+    </body>
+</html>

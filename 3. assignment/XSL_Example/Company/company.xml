@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="company.xsl"?> 
+
+<company>
+    <brands>
+        <brand id="1">
+            <name>New York</name>
+            <amount>100000$</amount>
+            <loan>50000$</loan>
+            <rent>15000$</rent>
+            <staff>
+                <batch>
+                    <season>Summer</season>
+                    <year>2020</year>
+                    <qulity>20</qulity>
+                </batch>
+                <batch>
+                    <season>Winter</season>
+                    <year>2021</year>
+                    <qulity>50</qulity>
+                </batch>
+            </staff>
+        </brand>
+        
+        <brand id="2">
+            <name>Viet Nam</name>
+            <amount>200000$</amount>
+            <loan>70000$</loan>
+            <rent>20000$</rent>
+            <staff>
+                <batch>
+                    <season>Spring</season>
+                    <year>2022</year>
+                    <qulity>14</qulity>
+                </batch>
+                <batch>
+                    <season>Autumn</season>
+                    <year>2021</year>
+                    <qulity>50</qulity>
+                </batch>
+            </staff>
+        </brand>
+    </brands>
+   
+    
+    <dailyAllowance>
+        <allowance>
+            <seniority>1</seniority>
+            <money>2$</money>
+        </allowance>
+        <allowance>
+            <seniority>2</seniority>
+            <money>5$</money>
+        </allowance>
+      
+        <allowance>
+            <seniority>3</seniority>
+            <money>10$</money>
+        </allowance>
+    </dailyAllowance>
+</company>
+

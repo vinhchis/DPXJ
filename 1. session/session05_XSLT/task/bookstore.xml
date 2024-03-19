@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?> 
+<bookstore> 
+  <book category="fiction"> 
+    <title>Harry Potter and the Sorcerer's Stone</title> 
+    <author>J.K. Rowling</author> 
+    <year>1997</year> 
+  </book> 
+  <book category="fiction"> 
+    <title>The Great Gatsby</title> 
+    <author>F. Scott Fitzgerald</author> 
+    <year>1925</year> 
+  </book> 
+  <book category="non-fiction"> 
+    <title>The Elements of Style</title> 
+    <author>William Strunk Jr.</author> 
+    <year>1918</year> 
+  </book> 
+</bookstore>
+

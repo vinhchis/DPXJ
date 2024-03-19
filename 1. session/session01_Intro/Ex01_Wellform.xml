@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>          
+
+<countryList>     <!-- Root Element -->
+    <country id="1">
+        <code>VN</code>
+        <name>Vietnam</name>
+        <capital>Hanoi</capital>
+    </country>
+    <country id="2">
+        <code>JP</code>
+        <name>Japan</name>
+        <capital>Tokyo</capital>
+    </country>
+    <node content="EOF" /> <!-- Empty Element -->
+</countryList>
+ 
+

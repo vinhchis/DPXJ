@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="product.xsl"?> 
+<products> 
+  <product> 
+    <name>Product 1</name> 
+    <price>10.99</price> 
+  </product> 
+  <product> 
+    <name>Product 2</name> 
+    <price>19.99</price> 
+  </product> 
+</products> 

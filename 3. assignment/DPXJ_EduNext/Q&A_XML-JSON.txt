@@ -1,0 +1,29 @@
+In the DPXJ-Topic 1-4: XSLT.
+
+1. Please list at least 3 built-in functions in XSLT that you know?
+ 	count(): Counts the number of nodes in a node-set.
+	sum(): Calculates the sum of numbers in a node-set.
+	round(): Rounds a number to the nearest integer.
+
+2. Please explain syntax: <xsl:variable /> and write a snippet for demotration?
+	<xsl:variable>: In XSLT, a variable that can store a value or an expression is
+		defined using this element. In the stylesheet, variables are used to simplify complex expressions or hold interim results.
+ 	Định nghĩa
+		<xsl:variable name="saleProduct" select="/products[sale == true]"/> 
+		=> tạo biến "saleProduct" chứa tất cả các sản phẩm sale
+	Sử dụng: 
+		<xsl:copy-of select="$saleProduct" />
+
+In the DPXJ-Topic 5-8: JSON.
+
+3. Please list at least 3 points about the difference of XML and JSON?
+	
+		|		JSON		|		XML		|
+		   It is data-oriented.         |      It is document-oriented. 
+	      There are no display capabilities.| 	It gives the display functionality because it is a markup language. 
+		The array type is supported. 	|	The array type is not supported. 
+	Compared to XML, JSON is less secure.	|  XML is quite secure. 
+
+4. Please list at least 3 Programming Languages that provide JSON support?
+	JavaScript, Python, JAVA, C#, PHP
+ 

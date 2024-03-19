@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="groupingproducts.xsl" ?> 
+<products> 
+  <product> 
+    <name>Product 1</name> 
+    <price>178</price> 
+  </product> 
+  <product> 
+    <name>Product 2</name> 
+    <price>109</price> 
+  </product> 
+  <product> 
+    <name>Product 3</name> 
+    <price>10</price> 
+  </product> 
+  <product> 
+    <name>Product 4</name> 
+    <price>199</price> 
+  </product> 
+    <product> 
+    <name>Product 5</name> 
+    <price>40</price> 
+  </product> 
+</products> 
+
